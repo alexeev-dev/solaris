@@ -1,0 +1,23 @@
+@import 'settings';
+
+
+/* Включаем спрайты и загружаем иконки */
+$mysprite-layout:smart;
+@import "icons/*.png";
+@include all-icons-sprites;
+
+$icons: ('city-russia', 'city-uk', 'city-germany', 'city-spain', 'city-usa', 'diploma', 'traineeship', 'advantages1', 'advantages2', 'result-steps1', 'result-steps2', 'result-steps3', 'result-steps4', 'steps1_seo', 'steps2_seo', 'steps3_seo', 'steps4_seo', 'steps5_seo', 'steps6_seo', 'steps7_seo', 'steps8_seo', 'steps1_html', 'steps2_html', 'steps3_html', 'steps4_html', 'steps5_html', 'steps6_html', 'steps7_html', 'steps8_html', 'steps1_ux', 'steps2_ux', 'steps3_ux', 'steps4_ux', 'steps5_ux', 'steps6_ux', 'steps7_ux', 'steps8_ux', 'benefit1', 'benefit2', 'benefit3', 'benefit4', 'benefit5', 'benefit6', 'benefit7', 'benefit8', 'benefit9', 'benefit10', 'benefit1_html', 'benefit2_html', 'benefit3_html', 'benefit4_html', 'benefit5_html', 'benefit6_html', 'fb1', 'fb2', 'fb3', 'fb4', 'fb5', 'fb6', 'gp1', 'gp2', 'gp3', 'gp4', 'insta1', 'insta2', 'insta3', 'insta4', 'tw1', 'tw2', 'tw3', 'tw4', 'tw5', 'vk1', 'vk2', 'vk3', 'vk4', 'vk5', 'seo', 'design', 'html', 'ok', 'alert1_blue', 'alert2_blue', 'alert1_red', 'alert2_red', 'alert1_yellow', 'alert2_yellow', 'user_group', 'user_star', 'move_prev', 'move_next', 'alert', 'specialty1', 'specialty2', 'specialty3');
+
+@each $icons in $icons {
+	.icons-#{$icons} {
+		display: inline-block;
+		position: relative;
+		width: icons-sprite-width(#{$icons});
+		height: icons-sprite-height(#{$icons});
+		
+		vertical-align: top;
+		display: -moz-inline-stack;
+		zoom: 1;
+        *display: inline;
+	}
+}
