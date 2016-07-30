@@ -301,32 +301,15 @@ a {text-decoration: none;}
 	}
 
 	.wr-format {
-		&.seo {
-			background: $bg-color1;
-			padding: 158px 0;
-		}
+		background: $bg-color1;
 
-		&.smm{
-			background: $bg-color1;
-			padding: 256px 0 140px;
-		}
-
-
-		&.html {
-			background: $bg-color1;
-			padding: 131px 0 150px 0;
-		}
-
-		&.ux {
-			background: $bg-color1;
-			padding: 158px 0;
-		}
-
-		&.seo, &.smm, &.html, &.ux {
-			@include respond-to(sm) {padding: 80px 0;}
-			@include respond-to(xs) {padding: 40px 0;}
-		}
-
+		@include respond-to(sm) {padding: 80px 0;}
+		@include respond-to(xs) {padding: 40px 0;}
+		
+		&.seo {padding: 158px 0;}
+		&.smm{padding: 256px 0 140px;}
+		&.html {padding: 131px 0 150px 0;}
+		&.ux {padding: 158px 0;}
 	}
 
 	.wr-program {
