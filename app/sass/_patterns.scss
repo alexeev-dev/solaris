@@ -1,0 +1,461 @@
+// lattice
+.content {
+	width: 960px; position: relative;
+
+	@include respond-to(md) {width: 740px;}
+	@include respond-to(sm) {width: 100%;}
+}
+
+
+.row {
+	margin-left: -10px;
+	margin-right: -10px;
+	position: relative;
+
+	&:after {
+		content: '';
+		display: table;
+		width: 100%;
+		clear: both;
+	}
+}
+
+.md_col-12 {width: 100%; @include respond-to(md) {width: 100% !important;}}
+.md_col-11 {width: 91.6667%; @include respond-to(md) {width: 91.6667% !important;}}
+.md_col-8 {width: 66.6667%; @include respond-to(md) {width: 66.6667% !important;}}
+.md_col-9 {width: 75%; @include respond-to(md) {width: 75% !important;}}
+.md_col-10 {width: 83.3333%; @include respond-to(md) {width: 83.3333% !important;}}
+.md_col-7 {width: 58.3333%; @include respond-to(md) {width: 58.3333% !important;}}
+.md_col-6 {width: 50%; @include respond-to(md) {width: 50% !important;}}
+.md_col-5 {width: 41.6667%; @include respond-to(md) {width: 41.6667% !important;}}
+.md_col-4 {width: 33.3333%; @include respond-to(md) {width: 33.3333% !important;}}
+.md_col-3 {width: 25%; @include respond-to(md) {width: 25% !important;}}
+.md_col-2 {width: 16.6667%; @include respond-to(md) {width: 16.6667% !important;}}
+.md_col-1  {width: 8.3333%; @include respond-to(md) {width: 8.3333% !important;}}
+
+.lg_col-12 {width: 100%;}
+.lg_col-11 {width: 91.6667%;}
+.lg_col-8 {width: 66.6667%;}
+.lg_col-9 {width: 75%;}
+.lg_col-10 {width: 83.3333%;}
+.lg_col-7 {width: 58.3333%;}
+.lg_col-6 {width: 50%;}
+.lg_col-5 {width: 41.6667%;}
+.lg_col-4 {width: 33.3333%;}
+.lg_col-3 {width: 25%;}
+.lg_col-2 {width: 16.6667%;}
+.lg_col-1  {width: 8.3333%;}
+
+.lg_col-1, .lg_col-10, .lg_col-11, .lg_col-12, .lg_col-2, .lg_col-3, .lg_col-4, .lg_col-5, .lg_col-6, .lg_col-7, .lg_col-8, .lg_col-9 {
+	float: left;
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+
+	@include respond-to(sm) {
+		width: 100% !important; display: block; float: none;
+	}
+
+}
+
+.md_col-1, .md_col-10, .md_col-11, .md_col-12, .md_col-2, .md_col-3, .md_col-4, .md_col-5, .md_col-6, .md_col-7, .md_col-8, .md_col-9 {
+	float: left;
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+
+	@include respond-to(sm) {
+		width: 100% !important; display: block; float: none;
+	}
+
+}
+
+.md_col--offset-3 {
+	margin-left: 25%;
+
+	@include respond-to(sm) {
+		width: 75% !important;
+	}
+}
+.md_col--offset-5 {
+	margin-left: 41.6667%;
+
+	@include respond-to(sm) {
+		width: 58.3333% !important;
+	}
+}
+.md_col--offset-4 {
+	margin-left: 33.3333%;
+
+	@include respond-to(sm) {
+		width: 66.6667% !important;
+	}
+}
+
+.sm_col-1, .sm_col-2, .sm_col-3, .sm_col-4, .sm_col-5, .sm_col-6, .sm_col-7, .sm_col-8, .sm_col-9, .sm_col-10, .sm_col-11, .sm_col-12, {
+	@include respond-to(sm) {
+		width: 100%; margin: 0; padding-left: 10px; padding-right: 10px; position: relative;
+	}
+}
+
+.clear {clear: both;}
+
+a {text-decoration: none;}
+
+.relative {position: relative;}
+
+// styles
+.nav-style1 {
+	color: $font-color1;
+	font-family: $text-font;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0;
+}
+.nav-style2 {
+	color: $font-color3;
+	font-family: $text-font;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.6px;
+	text-transform: uppercase;
+}
+
+.header-style0,
+.header-style1,
+.header-style2,
+.header-style3,
+.header-style4,
+.header-style5,
+.header-style6 {
+	color: $font-color1;
+	font-family: $header-font;
+	font-weight: 900;
+}
+
+// HEADERS
+.header-style0 {
+	font-size: 144px;
+	line-height: 130px;
+	letter-spacing: 0.2px;
+}
+
+.header-style1 {
+	font-size: 72px;
+	line-height: 70px;
+	letter-spacing: 0.2px;
+}
+
+.header-style2 {
+	font-size: 48px;
+	line-height: 50px;
+	letter-spacing: 0.4px;
+}
+
+.header-style3 {
+	font-size: 32px;
+	line-height: 35px;
+	letter-spacing: 0;
+}
+
+.header-style3-inverse {
+	@extend .header-style3;
+	color: $font-color2;
+}
+
+.header-style4 {
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 0;
+}
+
+.header-style5 {
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+}
+
+.header-style6 {
+	font-size: 17px;
+	line-height: 25px;
+	letter-spacing: 0.2px;
+}
+
+
+
+.text-style0,
+.text-style1,
+.text-style2,
+.text-style3,
+.text-style4,
+.text-style5,
+.text-style6,
+.text-style7 {
+	color: $font-color1;
+	font-family: $text-font;
+}
+
+.text-style0 {
+	font-size: 64px;
+	line-height: 64px;
+}
+
+.text-style1 {
+	font-size: 32px;
+	line-height: 40px;
+}
+
+.text-style2 {
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.text-style3 {
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.text-style4 {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.text-style4-inverse {
+	@extend .text-style4;
+	color: $font-color2;
+}
+
+.text-style5 {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.text-style6 {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.text-style7 {
+	font-size: 10px;
+	line-height: 20px;
+}
+
+
+// buttons
+.button-style1 {
+	background: $bg-color3;
+	color: $font-color2;
+	font-family: $text-font;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 0;
+	padding: 30px 47px;
+	border: none;
+	box-sizing: border-box;
+	cursor: pointer;
+	outline: none;
+
+	transition: all .4s;
+
+	&:hover {transform: scale(1.2);}
+
+	&::-moz-focus-inner{border:none;}
+	
+}
+
+.button-style2 {
+	background: transparent;
+	color: $font-color1;
+	font-family: $text-font;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 0;
+	padding: 20px 30px;
+	border: 2px solid $font-color1;
+	box-sizing: border-box;
+	cursor: pointer;
+	outline: none;
+
+	transition: all .4s;
+
+	&:hover {background: $bg-color3; color: $font-color2;}
+
+	&::-moz-focus-inner{border:none;}
+
+}
+
+input {
+	background: transparent;
+	color: $font-color1;
+	font-family: $text-font;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 14px;
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid $bg-color4;
+	box-sizing: border-box;
+
+	transition: all .4s ease;
+
+	&.error {
+		@keyframes blink {
+			0% {background: $font-color4-seo;}
+			50% {background: transparent;}
+			60% {background: $font-color4-seo;}
+			70% {background: transparent;}
+			80% {background: $font-color4-seo;}
+			90% {background: transparent;}
+			100% {background: $font-color4-seo;}
+
+		} 
+		animation: blink ease-in 2s forwards;
+	}
+}
+
+.figures {position: relative; width: 960px; margin: 0 auto;}
+
+.fig1, .fig2, .fig3, .fig4, .fig5, .fig6, .fig7, .fig8, .fig9, .fig10, .fig11, .fig12 {position: absolute;}
+
+.fig1 {
+
+	&.seo_1 {bottom: -280px; right: 20px;}
+
+	&.seo_2 {bottom: -74px; right: 122px;}
+
+	&.smm {bottom: -280px; right: 20px;}
+
+	&.html {top: 530px; right: 0;}
+
+	&.ux {bottom: -160px; right: -160px;}
+}
+.fig2 {
+	&.seo_1 {top: 790px; left: 648px;}
+
+	&.seo_2 {top: 0; left: 250px;}
+
+	&.smm {top: 1300px; left: 648px;}
+
+	&.html {top: 797px; left: -41px;}
+
+	&.ux {top: -1490px; left: -21px;}
+}
+.fig3 {
+	&.seo_1 {top: 1196px; left: -195px;}
+
+	&.seo_2 {top: 136px; left: -240px;}
+
+	&.smm {top: 520px; left: -195px;}
+
+	&.html {top: 3829px; left: -341px;}
+
+	&.ux {top: -420px; left: 580px;}
+}
+.fig4 {
+	&.seo_1 {bottom: -500px; left: -156px;}
+
+	&.seo_2 {bottom: -500px; left: -156px;}
+
+	&.smm {bottom: -500px; left: -156px;}
+
+	&.html {top: 6981px; left: -299px;}
+
+	&.ux {top: -430px; left: -356px;}
+}
+.fig5 {
+	&.seo_1 {bottom: 55px; left: -180px;}
+
+	&.seo_2 {bottom: 55px; left: -180px;}
+
+	&.smm {bottom: 55px; left: -180px;}
+
+	&.html {top: 9425px; right: -432px;}
+
+	&.ux {top: -55px; left: -180px;}
+}
+.fig6 {
+	&.seo_1 {top: 200px; left: 250px;}
+
+	&.seo_2 {top: 200px; left: 250px;}
+
+	&.smm {top: 200px; left: 250px;}
+
+	&.html {top: 10663px; left: 273px;}
+
+	&.ux {top: 180px; left: 250px;}
+}
+.fig7 {
+	&.seo_1 {top: 590px; left: 678px;}
+
+	&.seo_2 {top: 590px; left: 678px;}
+
+	&.smm {top: 590px; left: 678px;}
+
+	&.html {top: 11073px; left: 700px;}
+
+	&.ux {top: 590px; left: 678px;}
+}
+.fig8 {
+	&.seo_1 {bottom: -230px; left: -200px;}
+
+	&.seo_2 {bottom: -230px; left: -200px;}
+
+	&.smm {bottom: -230px; left: -200px;}
+
+	&.html {top: 11657px; left: -440px;}
+
+	&.ux {top: -230px; left: -307px;}
+}
+.fig9 {
+	&.seo_1 {bottom: -290px; right: -200px;}
+
+	&.seo_2 {bottom: -290px; right: -200px;}
+
+	&.smm {bottom: -290px; right: -200px;}
+
+	&.html {top: 13262px; left: -178px;}
+
+	&.ux {top: -500px; right: -518px;}
+}
+.fig10 {
+	&.smm {top: -320px; left: -135px;}
+
+	&.html {top: 13500px; right: 10px;}
+
+	// &.ux {top: 0; left: -90px;}
+}
+.fig11 {
+	&.smm {top: -350px; left: -185px;}
+
+	&.html {top: 14200px; left: -200px;}
+}
+.fig12 {
+	&.smm {bottom: -130px; right: -200px;}
+}
+
+::-webkit-input-placeholder {color: $font-color1; opacity: 1;}
+::-moz-placeholder          {color: $font-color1; opacity: 1;}
+:-moz-placeholder           {color: $font-color1; opacity: 1;}
+:-ms-input-placeholder      {color: $font-color1; opacity: 1;}
+
+// HIDE CLASS
+.md-hide {
+	@include respond-to(md) {display: none;}
+}
+.sm-hide {
+	@include respond-to(sm) {display: none;}
+}
+.xs-hide {
+	@include respond-to(xs) {display: none;}
+}
+
+// NOPADDING
+.sm-nomargin {
+	@include respond-to(sm) {
+		margin: 0; width: 100%;
+	}
+}

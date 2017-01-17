@@ -1,0 +1,708 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-advantages1 {
+  background-image: url(sprite.png);
+  background-position: -970px -718px;
+  width: 37px;
+  height: 51px;
+}
+.icon-advantages2 {
+  background-image: url(sprite.png);
+  background-position: -970px -782px;
+  width: 37px;
+  height: 36px;
+}
+.icon-alert {
+  background-image: url(sprite.png);
+  background-position: -980px -364px;
+  width: 26px;
+  height: 30px;
+}
+.icon-alert1_base {
+  background-image: url(sprite.png);
+  background-position: -348px -954px;
+  width: 54px;
+  height: 54px;
+}
+.icon-alert1_blue {
+  background-image: url(sprite.png);
+  background-position: -402px -954px;
+  width: 54px;
+  height: 54px;
+}
+.icon-alert1_dblue {
+  background-image: url(sprite.png);
+  background-position: -240px -954px;
+  width: 54px;
+  height: 54px;
+}
+.icon-alert1_red {
+  background-image: url(sprite.png);
+  background-position: -564px -954px;
+  width: 54px;
+  height: 54px;
+}
+.icon-alert1_yellow {
+  background-image: url(sprite.png);
+  background-position: -618px -954px;
+  width: 54px;
+  height: 54px;
+}
+.icon-alert2_base {
+  background-image: url(sprite.png);
+  background-position: -672px -954px;
+  width: 54px;
+  height: 54px;
+}
+.icon-alert2_blue {
+  background-image: url(sprite.png);
+  background-position: -510px -954px;
+  width: 54px;
+  height: 54px;
+}
+.icon-alert2_dblue {
+  background-image: url(sprite.png);
+  background-position: -456px -954px;
+  width: 54px;
+  height: 54px;
+}
+.icon-alert2_red {
+  background-image: url(sprite.png);
+  background-position: -294px -954px;
+  width: 54px;
+  height: 54px;
+}
+.icon-alert2_yellow {
+  background-image: url(sprite.png);
+  background-position: -726px -954px;
+  width: 54px;
+  height: 54px;
+}
+.icon-benefit1 {
+  background-image: url(sprite.png);
+  background-position: -1007px -712px;
+  width: 92px;
+  height: 82px;
+}
+.icon-benefit10 {
+  background-image: url(sprite.png);
+  background-position: -1007px -794px;
+  width: 89px;
+  height: 84px;
+}
+.icon-benefit1_html {
+  background-image: url(sprite.png);
+  background-position: -1007px -878px;
+  width: 86px;
+  height: 66px;
+}
+.icon-benefit2 {
+  background-image: url(sprite.png);
+  background-position: -1007px -102px;
+  width: 108px;
+  height: 87px;
+}
+.icon-benefit2_html {
+  background-image: url(sprite.png);
+  background-position: -906px -284px;
+  width: 86px;
+  height: 80px;
+}
+.icon-benefit3 {
+  background-image: url(sprite.png);
+  background-position: -906px -364px;
+  width: 74px;
+  height: 92px;
+}
+.icon-benefit3_html {
+  background-image: url(sprite.png);
+  background-position: -1007px -456px;
+  width: 92px;
+  height: 88px;
+}
+.icon-benefit4_html {
+  background-image: url(sprite.png);
+  background-position: -906px -546px;
+  width: 73px;
+  height: 92px;
+}
+.icon-benefit5_html {
+  background-image: url(sprite.png);
+  background-position: -906px -202px;
+  width: 86px;
+  height: 82px;
+}
+.icon-benefit6_html {
+  background-image: url(sprite.png);
+  background-position: -906px -638px;
+  width: 55px;
+  height: 80px;
+}
+.icon-benefit7 {
+  background-image: url(sprite.png);
+  background-position: -1007px -544px;
+  width: 98px;
+  height: 80px;
+}
+.icon-benefit8 {
+  background-image: url(sprite.png);
+  background-position: -1007px 0px;
+  width: 108px;
+  height: 102px;
+}
+.icon-benefit9 {
+  background-image: url(sprite.png);
+  background-position: -1007px -189px;
+  width: 104px;
+  height: 88px;
+}
+.icon-city-germany {
+  background-image: url(sprite.png);
+  background-position: -256px 0px;
+  width: 128px;
+  height: 171px;
+}
+.icon-city-russia {
+  background-image: url(sprite.png);
+  background-position: -128px -171px;
+  width: 128px;
+  height: 170px;
+}
+.icon-city-spain {
+  background-image: url(sprite.png);
+  background-position: -128px 0px;
+  width: 128px;
+  height: 171px;
+}
+.icon-city-uk {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 128px;
+  height: 171px;
+}
+.icon-city-usa {
+  background-image: url(sprite.png);
+  background-position: 0px -171px;
+  width: 128px;
+  height: 170px;
+}
+.icon-design {
+  background-image: url(sprite.png);
+  background-position: -1007px -624px;
+  width: 87px;
+  height: 88px;
+}
+.icon-diploma {
+  background-image: url(sprite.png);
+  background-position: -906px -456px;
+  width: 75px;
+  height: 90px;
+}
+.icon-fb1 {
+  background-image: url(sprite.png);
+  background-position: -981px -504px;
+  width: 24px;
+  height: 24px;
+}
+.icon-fb2 {
+  background-image: url(sprite.png);
+  background-position: -567px -898px;
+  width: 41px;
+  height: 40px;
+}
+.icon-fb3 {
+  background-image: url(sprite.png);
+  background-position: -970px -818px;
+  width: 24px;
+  height: 24px;
+}
+.icon-fb4 {
+  background-image: url(sprite.png);
+  background-position: -672px -546px;
+  width: 64px;
+  height: 64px;
+}
+.icon-fb5 {
+  background-image: url(sprite.png);
+  background-position: -655px -862px;
+  width: 140px;
+  height: 36px;
+}
+.icon-fb6 {
+  background-image: url(sprite.png);
+  background-position: -795px -862px;
+  width: 140px;
+  height: 36px;
+}
+.icon-for-whom1 {
+  background-image: url(sprite.png);
+  background-position: 0px -954px;
+  width: 122px;
+  height: 85px;
+}
+.icon-for-whom2 {
+  background-image: url(sprite.png);
+  background-position: -121px -862px;
+  width: 124px;
+  height: 89px;
+}
+.icon-for-whom3 {
+  background-image: url(sprite.png);
+  background-position: -524px -405px;
+  width: 132px;
+  height: 84px;
+}
+.icon-for-whom4 {
+  background-image: url(sprite.png);
+  background-position: -245px -862px;
+  width: 130px;
+  height: 84px;
+}
+.icon-gp1 {
+  background-image: url(sprite.png);
+  background-position: -981px -456px;
+  width: 24px;
+  height: 24px;
+}
+.icon-gp2 {
+  background-image: url(sprite.png);
+  background-position: -608px -898px;
+  width: 41px;
+  height: 40px;
+}
+.icon-gp3 {
+  background-image: url(sprite.png);
+  background-position: -979px -594px;
+  width: 24px;
+  height: 24px;
+}
+.icon-gp4 {
+  background-image: url(sprite.png);
+  background-position: -906px -782px;
+  width: 64px;
+  height: 64px;
+}
+.icon-html {
+  background-image: url(sprite.png);
+  background-position: -906px -116px;
+  width: 86px;
+  height: 86px;
+}
+.icon-insta1 {
+  background-image: url(sprite.png);
+  background-position: -980px -394px;
+  width: 24px;
+  height: 24px;
+}
+.icon-insta2 {
+  background-image: url(sprite.png);
+  background-position: -649px -898px;
+  width: 41px;
+  height: 40px;
+}
+.icon-insta3 {
+  background-image: url(sprite.png);
+  background-position: -979px -546px;
+  width: 24px;
+  height: 24px;
+}
+.icon-insta4 {
+  background-image: url(sprite.png);
+  background-position: -906px -718px;
+  width: 64px;
+  height: 64px;
+}
+.icon-link {
+  background-image: url(sprite.png);
+  background-position: -961px -638px;
+  width: 40px;
+  height: 50px;
+}
+.icon-move_next {
+  background-image: url(sprite.png);
+  background-position: -1098px -367px;
+  width: 17px;
+  height: 17px;
+}
+.icon-move_prev {
+  background-image: url(sprite.png);
+  background-position: -1098px -384px;
+  width: 17px;
+  height: 17px;
+}
+.icon-ok {
+  background-image: url(sprite.png);
+  background-position: -1094px -624px;
+  width: 18px;
+  height: 13px;
+}
+.icon-pro_cr {
+  background-image: url(sprite.png);
+  background-position: -182px -954px;
+  width: 58px;
+  height: 58px;
+}
+.icon-pro_rt {
+  background-image: url(sprite.png);
+  background-position: -441px -405px;
+  width: 60px;
+  height: 60px;
+}
+.icon-pro_sq {
+  background-image: url(sprite.png);
+  background-position: -122px -954px;
+  width: 60px;
+  height: 60px;
+}
+.icon-pro_tr {
+  background-image: url(sprite.png);
+  background-position: -736px -546px;
+  width: 60px;
+  height: 60px;
+}
+.icon-result-steps1 {
+  background-image: url(sprite.png);
+  background-position: -761px -743px;
+  width: 132px;
+  height: 94px;
+}
+.icon-result-steps2 {
+  background-image: url(sprite.png);
+  background-position: -635px -743px;
+  width: 126px;
+  height: 100px;
+}
+.icon-result-steps3 {
+  background-image: url(sprite.png);
+  background-position: -677px -626px;
+  width: 119px;
+  height: 97px;
+}
+.icon-result-steps4 {
+  background-image: url(sprite.png);
+  background-position: -510px -743px;
+  width: 125px;
+  height: 101px;
+}
+.icon-seo {
+  background-image: url(sprite.png);
+  background-position: -1007px -367px;
+  width: 91px;
+  height: 89px;
+}
+.icon-specialty1 {
+  background-image: url(sprite.png);
+  background-position: -386px -743px;
+  width: 124px;
+  height: 108px;
+}
+.icon-specialty2 {
+  background-image: url(sprite.png);
+  background-position: -551px -493px;
+  width: 121px;
+  height: 98px;
+}
+.icon-specialty3 {
+  background-image: url(sprite.png);
+  background-position: 0px -862px;
+  width: 121px;
+  height: 92px;
+}
+.icon-speed {
+  background-image: url(sprite.png);
+  background-position: -423px -898px;
+  width: 48px;
+  height: 48px;
+}
+.icon-star {
+  background-image: url(sprite.png);
+  background-position: -519px -898px;
+  width: 48px;
+  height: 46px;
+}
+.icon-steps1_base {
+  background-image: url(sprite.png);
+  background-position: -524px -135px;
+  width: 148px;
+  height: 135px;
+}
+.icon-steps1_html {
+  background-image: url(sprite.png);
+  background-position: -416px -626px;
+  width: 136px;
+  height: 109px;
+}
+.icon-steps1_seo {
+  background-image: url(sprite.png);
+  background-position: -524px 0px;
+  width: 148px;
+  height: 135px;
+}
+.icon-steps1_smm {
+  background-image: url(sprite.png);
+  background-position: -524px -270px;
+  width: 148px;
+  height: 135px;
+}
+.icon-steps1_ux {
+  background-image: url(sprite.png);
+  background-position: 0px -626px;
+  width: 141px;
+  height: 117px;
+}
+.icon-steps2_html {
+  background-image: url(sprite.png);
+  background-position: -410px -493px;
+  width: 141px;
+  height: 119px;
+}
+.icon-steps2_seo {
+  background-image: url(sprite.png);
+  background-position: -384px 0px;
+  width: 140px;
+  height: 153px;
+}
+.icon-steps2_smm {
+  background-image: url(sprite.png);
+  background-position: -384px -153px;
+  width: 140px;
+  height: 153px;
+}
+.icon-steps2_ux {
+  background-image: url(sprite.png);
+  background-position: -279px -493px;
+  width: 131px;
+  height: 131px;
+}
+.icon-steps3_html {
+  background-image: url(sprite.png);
+  background-position: -282px -626px;
+  width: 134px;
+  height: 116px;
+}
+.icon-steps3_seo {
+  background-image: url(sprite.png);
+  background-position: 0px -493px;
+  width: 140px;
+  height: 133px;
+}
+.icon-steps3_smm {
+  background-image: url(sprite.png);
+  background-position: -140px -493px;
+  width: 139px;
+  height: 133px;
+}
+.icon-steps3_ux {
+  background-image: url(sprite.png);
+  background-position: -255px -743px;
+  width: 131px;
+  height: 111px;
+}
+.icon-steps4_html {
+  background-image: url(sprite.png);
+  background-position: -797px -272px;
+  width: 103px;
+  height: 133px;
+}
+.icon-steps4_seo {
+  background-image: url(sprite.png);
+  background-position: 0px -341px;
+  width: 139px;
+  height: 152px;
+}
+.icon-steps4_smm {
+  background-image: url(sprite.png);
+  background-position: -797px 0px;
+  width: 109px;
+  height: 138px;
+}
+.icon-steps4_ux {
+  background-image: url(sprite.png);
+  background-position: -672px -274px;
+  width: 123px;
+  height: 134px;
+}
+.icon-steps5_html {
+  background-image: url(sprite.png);
+  background-position: -797px -533px;
+  width: 104px;
+  height: 115px;
+}
+.icon-steps5_seo {
+  background-image: url(sprite.png);
+  background-position: -672px -408px;
+  width: 109px;
+  height: 138px;
+}
+.icon-steps5_smm {
+  background-image: url(sprite.png);
+  background-position: -290px -341px;
+  width: 151px;
+  height: 139px;
+}
+.icon-steps5_ux {
+  background-image: url(sprite.png);
+  background-position: -906px 0px;
+  width: 101px;
+  height: 116px;
+}
+.icon-steps6_html {
+  background-image: url(sprite.png);
+  background-position: -797px -405px;
+  width: 101px;
+  height: 128px;
+}
+.icon-steps6_seo {
+  background-image: url(sprite.png);
+  background-position: -256px -171px;
+  width: 118px;
+  height: 155px;
+}
+.icon-steps6_smm {
+  background-image: url(sprite.png);
+  background-position: -672px 0px;
+  width: 125px;
+  height: 137px;
+}
+.icon-steps6_ux {
+  background-image: url(sprite.png);
+  background-position: -797px -138px;
+  width: 109px;
+  height: 134px;
+}
+.icon-steps7_html {
+  background-image: url(sprite.png);
+  background-position: -125px -743px;
+  width: 130px;
+  height: 113px;
+}
+.icon-steps7_seo {
+  background-image: url(sprite.png);
+  background-position: -139px -341px;
+  width: 151px;
+  height: 139px;
+}
+.icon-steps7_ux {
+  background-image: url(sprite.png);
+  background-position: -141px -626px;
+  width: 141px;
+  height: 117px;
+}
+.icon-steps8_html {
+  background-image: url(sprite.png);
+  background-position: -552px -626px;
+  width: 125px;
+  height: 109px;
+}
+.icon-steps8_seo {
+  background-image: url(sprite.png);
+  background-position: -672px -137px;
+  width: 125px;
+  height: 137px;
+}
+.icon-steps8_ux {
+  background-image: url(sprite.png);
+  background-position: 0px -743px;
+  width: 125px;
+  height: 119px;
+}
+.icon-traineeship {
+  background-image: url(sprite.png);
+  background-position: -1007px -277px;
+  width: 94px;
+  height: 90px;
+}
+.icon-tree {
+  background-image: url(sprite.png);
+  background-position: 0px -1039px;
+  width: 51px;
+  height: 60px;
+}
+.icon-tw1 {
+  background-image: url(sprite.png);
+  background-position: -980px -418px;
+  width: 24px;
+  height: 24px;
+}
+.icon-tw2 {
+  background-image: url(sprite.png);
+  background-position: -690px -898px;
+  width: 40px;
+  height: 40px;
+}
+.icon-tw3 {
+  background-image: url(sprite.png);
+  background-position: -981px -480px;
+  width: 24px;
+  height: 24px;
+}
+.icon-tw4 {
+  background-image: url(sprite.png);
+  background-position: -441px -341px;
+  width: 64px;
+  height: 64px;
+}
+.icon-tw5 {
+  background-image: url(sprite.png);
+  background-position: -375px -862px;
+  width: 140px;
+  height: 36px;
+}
+.icon-user_group {
+  background-image: url(sprite.png);
+  background-position: -471px -898px;
+  width: 48px;
+  height: 48px;
+}
+.icon-user_star {
+  background-image: url(sprite.png);
+  background-position: -375px -898px;
+  width: 48px;
+  height: 48px;
+}
+.icon-vk1 {
+  background-image: url(sprite.png);
+  background-position: -961px -688px;
+  width: 24px;
+  height: 24px;
+}
+.icon-vk2 {
+  background-image: url(sprite.png);
+  background-position: -861px -648px;
+  width: 41px;
+  height: 40px;
+}
+.icon-vk3 {
+  background-image: url(sprite.png);
+  background-position: -979px -570px;
+  width: 24px;
+  height: 24px;
+}
+.icon-vk4 {
+  background-image: url(sprite.png);
+  background-position: -797px -648px;
+  width: 64px;
+  height: 64px;
+}
+.icon-vk5 {
+  background-image: url(sprite.png);
+  background-position: -515px -862px;
+  width: 140px;
+  height: 36px;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "solaris",
+  "description": "solaris online",
+  "main": "index.js",
+  "authors": [
+    "aleksey"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "owl.carousel": "^2.1.6",
+    "jquery": "^3.1.0",
+    "fancybox": "^2.1.5",
+    "bPopup": "bpopup#^0.11.0",
+    "scrollme": "^1.1.0",
+    "parallaxify": "^0.1.1",
+    "wow": "wowjs#^1.1.2",
+    "reset-css": "^2.0.2011012603"
+  }
+}
